@@ -1,0 +1,21 @@
+{
+  "name": "sitsinvoiceautosendemail",
+  "version": "1.0.0",
+  "description": "SITS auto send email invoice",
+  "scripts": {
+    "start": "func start",
+    "tidy": "npm run prettier && npm run eslint",
+    "eslint": "eslint --fix --ext js ."
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
+    "googleapis": "^148.0.0",
+    "mssql": "^11.0.1",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "azure-functions-core-tools": "^4.x"
+  }
+}

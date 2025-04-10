@@ -1,0 +1,10 @@
+{
+  "bindings": [
+    {
+      "name": "TimerSITSSendDailyJobReport",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 05 * * 2-6"
+    }
+  ]
+}
