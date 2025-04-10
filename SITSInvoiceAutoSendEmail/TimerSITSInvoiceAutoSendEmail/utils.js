@@ -28,8 +28,7 @@ const sendErrorNotificationToTeams = async (err, context) => {
 
   const functionName = getFunctionName(context);
   const operationId = getOperationId(context);
-   const linkToAzurePortalLogsPage = "Portal Log"
-  //   "https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/invocations/resourceId/%2Fsubscriptions%2Fb9ec6993-f7cb-4a48-bb17-6b9ebc2ec234%2FresourceGroups%2Fsits_batchscheduler%2Fproviders%2FMicrosoft.Web%2Fsites%2Fauto-postpone%2Ffunctions%2FTestConsoleLog";
+   const linkToAzurePortalLogsPage = "https://portal.azure.com/#view/WebsitesExtension/FunctionTabMenuBlade/~/logs/resourceId/%2Fsubscriptions%2Fb7ccf9aa-8993-4e55-a5ee-899ad4e0197e%2FresourceGroups%2Fscheduler%2Fproviders%2FMicrosoft.Web%2Fsites%2Fsits-invoice-auto-send-email%2Ffunctions%2FTestConsoleLog";
 
   try {
     const messagePayload = {
